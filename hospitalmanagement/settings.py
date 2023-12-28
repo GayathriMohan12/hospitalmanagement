@@ -103,8 +103,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-if DEBUG:
-    AUTH_PASSWORD_VALIDATORS = []
 
 
 # Internationalization
