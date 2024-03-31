@@ -1,16 +1,66 @@
+Health Care Administration System (HAM)
+Overview
+The Health Care Administration System (HAM) is a comprehensive project aimed at transforming healthcare management. Leveraging the Django framework along with HTML, CSS, and JavaScript, HAM introduces innovative features to enhance the overall healthcare experience.
+
+Key Features
+User-Focused Website:
+
+User-friendly interfaces for patients, administrators, and doctors.
+Seamless login for patients through an intuitive interface, reducing reliance on the admin webpage.
+Enhanced Trust and Accessibility:
+
+Transparent insights into healthcare hospital operations on the website.
+Immediate call button for quick communication in emergencies.
+Admin website preview accessible by clicking the hospital logo, ensuring a smooth transition between the public-facing and administrative interfaces.
+Streamlined Information Access:
+
+Homepage with dedicated sections for home, services, doctors, departments, and about for easy navigation.
+Integration of admin website features for a more comprehensive user understanding.
+Future Enhancements
+Chatbot Integration:
+
+Enhance user engagement and support with the integration of a chatbot.
+Customized Notification System:
+
+Implement a personalized notification system for users.
+Expanded Specifications:
+
+Include more detailed specifications for services, doctors, and departments.
+Improved Appointment Booking:
+
+Enhance the user interface for streamlined appointment booking.
+Technology Stack
+Backend: Django Framework
+Frontend: HTML, CSS, JavaScript
+Database: Utilizes Django's Object-Relational Mapping (ORM)
+Screenshots
+Screenshots showcasing the project's output, including the user interface and key features, have been added to the project folder.
+
+Conclusion
+HAM aims to revolutionize healthcare administration by fostering transparency, accessibility, and efficiency. The project's user-centric approach, integration of innovative features, and future enhancements position it as a forward-looking solution in the realm of healthcare management.
+
+
+
 
 # Hospital Management
 ![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
----
+
+# changes added to the given prototype
+- Integrated changes into the existing prototype
+- Introduced a user interface website with the following sections:
+- Home
+- About
+- Doctors
+- Departments
+- Blog
+- Services
+- Implemented the addition of a call button for enhanced user interaction
+
+# project output added in the screenshots folder
+
+
 ## screenshots
-### Homepage
-![homepage snap](https://github.com/sumitkumar1503/hospitalmanagement/blob/master/static/screenshots/homepage.png?raw=true)
-### Admin Dashboard
-![dashboard snap](https://github.com/sumitkumar1503/hospitalmanagement/blob/master/static/screenshots/admin_dashboard.png?raw=true)
-### Invoice
-![invoice snap](https://github.com/sumitkumar1503/hospitalmanagement/blob/master/static/screenshots/invoice.png?raw=true)
-### Doctor list
-![doctor snap](https://github.com/sumitkumar1503/hospitalmanagement/blob/master/static/screenshots/admin_doctor.png?raw=true)
+- Screenshots showcasing the project's output have been included in the project folder.
 ---
 ## Functions
 ### Admin
@@ -56,26 +106,6 @@ py manage.py runserver
 http://127.0.0.1:8000/
 ```
 
-## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
-```
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
-```
-- Login to gmail through host email id in your browser and open following link and turn it ON
-```
-https://myaccount.google.com/lesssecureapps
-```
-## Drawbacks/LoopHoles
-- Any one can be Admin. There is no Approval required for admin account. So you can disable admin signup process and use any logic like creating superuser.
-- There should be at least one doctor in hospital before admitting patient. So first add doctor.
-- On update page of doctor/patient you must have to update password.
 
-## Disclaimer
-This project is developed for demo purpose and it's not supposed to be used in real application.
+```
 
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)

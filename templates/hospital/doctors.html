@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel = "stylesheet" href = "/static/departments.css" type="text/css" charset="utf-8">
+
+  <title>LazyCoder || sumit</title>
+  <style>
+    .contact-panel-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: aliceblue;
+      border-radius: 20px;
+      margin: 10px;
+
+    }
+
+    .contact-card{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      background-color: aliceblue;
+      margin: 10px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 5px 5px #c4b2b2;
+
+
+    }
+
+    .doctor-profile-div{
+      grid-column-start: 1;
+      grid-row-start:1;
+      grid-row-end: 5;
+      width: 100px;
+      border-radius: 50px;
+      
+      
+    }
+
+    .profile-pic{
+      width: 100px;
+      border-radius: 50px;
+      box-shadow: 10px 10px 5px 0px #888888;
+      margin-left: 5px;
+      margin-top: 5px;
+      
+    }
+
+
+    .doctor-name{
+      font-weight: bold;
+      margin-bottom: 0;
+      font-size: 17px;
+      padding-bottom: 0;
+      margin-top: 10px;
+    }
+
+    .speciality{
+      font-size: 15px;
+      color: rgb(151, 133, 133);
+
+      margin-bottom: 20px;
+  
+    }
+
+    .experience,
+    .location{
+      margin-bottom: 3px;
+      font-size: 15px;
+      color:rgb(87, 65, 65);
+    }
+
+    .experience-grid,
+    .location-grid{
+      display: grid;
+      grid-template-columns: 25px 1fr;
+      margin-bottom: 5px;
+    }
+
+    .experience-icon,
+    .location-icon{
+      width: 15px;
+      
+    } 
+
+  </style>
+</head>
+
+  <body style="margin-top: 100px; background-color: aquamarine;">
+  {% include "hospital/revo-navbar.html" %}
+  <br><br>
+
+  <div class="header-department">
+    <h2 class="main-heading">Explore our Centres of Clinical Excellence </h2>
+    <p class="sub_hdng pt-1">Learn about the world class health care we provide </strong></p>
+    <br>
+ </div>
+
+
+  <div class="contact-panel-grid">
+
+  
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+
+
+    <div class="contact-card">
+      <div class="doctor-profile-div">
+        <img class= "profile-pic" src="https://cdn.askapollo.com/live/images/doctors/defaultprofilepicmale.jpg">
+      </div>
+      <div class="doctor-name">doctor-name</div>
+      <div class="speciality">speciality</div>
+      <div class="experience-grid">
+        <img class="experience-icon"    src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/award.svg">
+        <div class="experience">experience</div>
+      </div>
+  
+      <div class="location-grid">
+        <img class="location-icon" src="https://www.apollohospitals.com/book-doctor-appointment//assets/images/location.svg">
+        <div class="location">location</div>
+      </div>
+    </div>
+
+  
+
+  </div>
+
+
+  {% include "hospital/revo-footer.html" %}
+
+

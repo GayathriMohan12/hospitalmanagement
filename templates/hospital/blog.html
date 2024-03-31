@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>LazyCoder || sumit</title>
+  <style>
+    .thumbnail {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .video-preview{
+    background-color: aliceblue; border-radius: 10px;padding: 5px;
+  }
+
+ 
+  .video-title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  .profile-picture {
+    width: 36px;
+    border-radius: 50px;
+  }
+
+  .thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+  }
+
+  .video-author,
+  .video-stats {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+  }
+
+  .video-author {
+    margin-bottom: 4px;
+  }
+
+  /* .video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+  } */
+
+  .video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 14px;
+    
+    
+  }
+
+  @media(max-width:800px){
+    .video-grid{
+      grid-template-columns: 1fr 1fr;
+    }
+
+  }
+  @media(min-width:900px) {
+    .video-grid{
+      grid-template-columns: 1fr 1fr  1fr 1fr;
+    }
+    
+  }
+
+  .video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-family: roboto,arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom  : 4px;
+    border-radius: 2px;
+  
+  }
+  </style>
+
+</head>
+
+<body style="margin-top: 100px;">
+
+  {% include "hospital/revo-navbar.html" %}
+  <br><br>
+
+  <div class="video-grid" style="margin-left:70px;margin-right: 70px;margin-bottom: 70px;"> 
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/pneumonia-causes-symptoms-and-treatment/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2024/01/Pneumonia-700.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            Pneumonia: Causes, Symptoms, and Treatment
+          </p>
+          <p class="video-author">
+            Overview Pneumonia is a serious lung infection that affects people across age groups. Being well-informed can help people seek timely care when required and also take preventive measures. Therefore, we have provided a comprehensive guide to pneumonia by exploring its causes, risk factors, types, symptoms, diagnosis, and treatment options.  What is Pneumonia? Pneumonia is swelling
+          </p>
+          <p class="video-stats">
+            January 5,2024
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!--div 2-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://omnihospitals.in/chronic-obstructive-pulmonary-disease-copd-awareness/">
+            <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2024/01/01-Chronic-Obstructive-Pulmonary-Disease-COPD-Awareness.jpg">
+          </a>
+          <div class="video-time">Read More>></div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="">
+          </div>
+        
+          <div class="video-info">
+            <p class="video-title">
+              Chronic Obstructive Pulmonary Disease (COPD) Awareness
+            </p>
+            <p class="video-author">
+              Chronic obstructive pulmonary disease (COPD) is an umbrella term for a group of lung conditions, including emphysema, non reversible asthma, chronic bronchitis and certain types of bronchiectasis. These conditions can occur in combination. According to research conducted by the World Health Organization COPD affects a varying percentage of adults ranging from 4% to 20%. The
+            </p>
+            <p class="video-stats">
+              January 3,2024
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+    <!--div 3-->
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/mental-health-awareness/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2023/12/01-Mental-Health-Awareness.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            Mental Health Awareness
+          </p>
+          <p class="video-author">
+            What is Mental Health Awareness? Mental health awareness refers to efforts focused on building collective understanding regarding emotional, psychological, and social well-being in human beings. It involves disseminating helpful information to dispel myths and stereotypes surrounding mental health conditions. The goal is to create more compassionate, supportive communities for those managing mental health concerns. Ideally,
+          </p>
+          <p class="video-stats">
+            December 22, 2023
+          </p>
+        </div>
+      </div>
+    </div>
+
+    
+    <!--div 4-->
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/the-importance-of-lung-health-check-ups/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2024/01/01-The-Importance-of-Lung-Health-Check-ups.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            The Importance of Lung Health Check-ups
+          </p>
+          <p class="video-author">
+            Maintaining good health involves a holistic approach that encompasses various aspects of well-being, among which lung health stands as a crucial pillar. Our lungs, often overlooked in routine health evaluations, play a pivotal role in our overall vitality. Although most individuals don’t consider their lung health until a problem starts to show symptoms, it’s crucial
+          </p>
+          <p class="video-stats">
+            January 8,2024
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+     <!--div 5-->
+    
+     <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/healthy-living-and-nutrition/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2023/12/01-Healthy-Living-and-Nutrition.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            Healthy Living and Nutrition
+          </p>
+          <p class="video-author">
+            Introduction Living a healthy life remains essential for everyone who seeks a high quality of life. Eating right, being active, and managing stress positively affect our health. We can significantly minimise the risks for various chronic diseases, keep fit, feel fresher and live longer if we are smart about our choices and develop good habits.
+          </p>
+          <p class="video-stats">
+            December 20, 2023
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!--div 6-->
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/migraines-simple-steps-to-head-off-the-pain/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2023/11/8.-Migraines-Simple-steps-to-head-off-the-pain-700.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            Migraines: Simple Steps to Head Off the Pain
+          </p>
+          <p class="video-author">
+            A migraine can be incredibly painful and may cause the affected individual serious agony. It starts with a pulsating pain deep within your head. It may feel as though your brain is throbbing with every heartbeat. This pain further extends from the area behind one eye to the other. Simultaneously, a feeling of nausea starts
+          </p>
+          <p class="video-stats">
+            November 18, 2023
+          </p>
+        </div>
+      </div>
+    </div>
+
+     <!--div 8-->
+    
+     <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/common-sports-injuries-and-how-to-avoid-them/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2023/11/Web-1-1.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            Common Sports Injuries and How to Avoid Them
+          </p>
+          <p class="video-author">
+            Sports have always been important in encouraging people to be physically active, mentally healthy, and socially connected. Whether you’re a professional athlete or simply someone who enjoys an active lifestyle, sports injuries can be a significant setback. The term “sports injury” describes the many types of injuries that are often sustained when engaging in sports
+          </p>
+          <p class="video-stats">
+            November 15,2023
+          </p>
+        </div>
+      </div>
+    </div>
+
+     <!--div 9-->
+    
+     <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/rheumatoid-arthritis-symptoms-diagnosis-and-treatment/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2023/11/6.-Rheumatoid-Arthritis-Symptoms-Diagnosis-and-Treatment-700.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            Rheumatoid Arthritis: Symptoms, Diagnosis, and Treatment
+          </p>
+          <p class="video-author">
+            Maintaining good health involves a holistic approach that encompasses various aspects of well-being, among which lung health stands as a crucial pillar. Our lungs, often overlooked in routine health evaluations, play a pivotal role in our overall vitality. Although most individuals don’t consider their lung health until a problem starts to show symptoms, it’s crucial
+          </p>
+          <p class="video-stats">
+           November 11,2023
+          </p>
+        </div>
+      </div>
+    </div>
+
+     <!--div 10-->
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/dementia-alzheimers-10-early-signs-and-symptoms/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2023/11/5.-10-Early-Signs-and-Symptoms-of-Alzheimers-Dementia-700.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            Dementia & Alzheimer’s – 10 Early Signs and Symptoms
+          </p>
+          <p class="video-author">
+            Catching dementia early and promptly starting treatment can significantly slow its progression, helping preserve cognitive abilities longer. Witnessing a loved one’s mental decline is undoubtedly difficult, but the early and middle stages still present opportunities for better outcomes through patience and compassion.  In this article, we’ll explore subtle signs of dementia to monitor and when
+          </p>
+          <p class="video-stats">
+            November 8,2023
+          </p>
+        </div>
+      </div>
+    </div>
+
+     <!--div 11-->
+
+
+     <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/how-does-stress-contribute-to-heart-disease-risk/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2023/11/4.-How-Stress-Contributes-to-Heart-Disease-Risk-700.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            How does Stress Contribute To Heart Disease Risk?
+          </p>
+          <p class="video-author">
+            Feeling stressed? It’s your body’s normal response to challenging situations. When stressed, your brain makes hormones like cortisol and adrenaline. Cortisol provides energy by releasing sugar into your blood, and adrenaline prepares you for ‘fight or flight’ by revving up your heart rate, breathing, and blood flow, preparing you to handle and cope with the
+          </p>
+          <p class="video-stats">
+            November 4,2023
+          </p>
+        </div>
+      </div>
+    </div>
+
+     <!--div 11-->
+
+
+     <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/improve-gut-health-recognise-the-signs-of-an-unhealthy-gut/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2023/11/3.-Improve-Gut-Health-Recognize-the-Signs-of-an-Unhealthy-Gut-700.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            Improve Gut Health: Recognise the Signs of an Unhealthy Gut 
+          </p>
+          <p class="video-author">
+            Our gut is essential for maintaining overall body health by promoting nutrition absorption from food, but we often ignore the cries for help from our gut. Millions of people suffer from gut-related problems such as irritable bowel syndrome (IBS) and gastroesophageal reflux disease (GERD). Gut health can be influenced by a number of factors, ranging
+          </p>
+          <p class="video-stats">
+            November 1,2023
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://omnihospitals.in/8-lifestyle-changes-to-help-reduce-breast-cancer-risk/">
+          <img class="thumbnail" src="https://omnihospitals.in/wp-content/uploads/2023/10/2.-8-Lifestyle-Changes-to-Help-Reduce-Breast-Cancer-Risk-700.jpg">
+        </a>
+        <div class="video-time">Read More>></div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="">
+        </div>
+      
+        <div class="video-info">
+          <p class="video-title">
+            8 Lifestyle Changes to Help Reduce Breast Cancer Risk
+          </p>
+          <p class="video-author">
+            Breast cancer is the second most common cause of cancer-related mortality in women. The diagnosis has a profound impact on the patient’s life and those around them as well. An increasing amount of evidence indicates that lifestyle decisions can significantly reduce the chance of developing breast cancer, even considering hereditary and environmental variables that can
+          </p>
+          <p class="video-stats">
+            October 28,2023
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     <!--div 13-->
+
+     {% include "hospital/revo-footer.html" %}
+
+

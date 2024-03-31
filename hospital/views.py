@@ -10,6 +10,29 @@ from django.conf import settings
 from django.db.models import Q
 
 # Create your views here.
+def hospital_webpage(request):
+    return render(request,'hospital/revo-index.html')
+
+def blog(request):
+    return render(request,'hospital/blog.html')
+
+def departments(request):
+    return render(request,'hospital/departments.html')
+
+def services(request):
+    return render(request,'hospital/services.html')
+
+def doctors(request):
+    return render(request,'hospital/doctors.html')
+
+def revo_aboutpage(request):
+    return render(request,'hospital/revo_aboutpage.html')
+
+
+
+
+
+
 def home_view(request):
     if request.user.is_authenticated:
         return HttpResponseRedirect('afterlogin')
